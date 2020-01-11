@@ -14,6 +14,12 @@ namespace AlmostEmpty3_1StarterCode.Controllers
             return View();
         }
 
+        public IActionResult Test()
+        {
+            ViewData["Title"] = "Test page";
+            return View();
+        }
+
         public IActionResult About()
         {
             return View();

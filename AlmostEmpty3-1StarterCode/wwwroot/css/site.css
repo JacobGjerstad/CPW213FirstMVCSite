@@ -1,3 +1,14 @@
-﻿body {
+﻿
+body {
+	color: cornflowerblue;
+	text-align: center;
+}
+footer {
+	position: fixed;
 	color: red;
+	bottom: 0;
+	margin-left: 45%;
+}
+main {
+	color: black;
 }
